@@ -64,7 +64,8 @@
     "mochaExplorer.env": {
       "VSCODE_VERSION": "insiders",
       "ELECTRON_RUN_AS_NODE": null
-    }
+    },
+    "liveServer.settings.multiRootWorkspaceName": "Server"
   },
   "tasks": {
     "version": "2.0.0",
