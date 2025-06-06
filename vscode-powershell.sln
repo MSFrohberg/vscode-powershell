@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0C88DD14-F956-CE84-757C-A364CCF449FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mocks", "mocks", "{1C33DA5B-C394-6ACC-611F-BCD2AFD6A087}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryModule", "test\mocks\BinaryModule\BinaryModule.csproj", "{62510BE6-9512-EB89-72A4-E1632B0F1810}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62510BE6-9512-EB89-72A4-E1632B0F1810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62510BE6-9512-EB89-72A4-E1632B0F1810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62510BE6-9512-EB89-72A4-E1632B0F1810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62510BE6-9512-EB89-72A4-E1632B0F1810}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1C33DA5B-C394-6ACC-611F-BCD2AFD6A087} = {0C88DD14-F956-CE84-757C-A364CCF449FC}
+		{62510BE6-9512-EB89-72A4-E1632B0F1810} = {1C33DA5B-C394-6ACC-611F-BCD2AFD6A087}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C51A7311-B451-4A92-9237-3027E4EE9FEB}
+	EndGlobalSection
+EndGlobal
